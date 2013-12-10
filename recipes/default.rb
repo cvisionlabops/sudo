@@ -19,7 +19,7 @@
 
 prefix = node['authorization']['sudo']['prefix']
 
-package node['authorization']['sudo']['package_name']
+#package node['authorization']['sudo']['package_name']
 
 if node['authorization']['sudo']['include_sudoers_d']
   directory "#{prefix}/sudoers.d" do
